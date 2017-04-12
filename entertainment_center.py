@@ -1,54 +1,121 @@
-#Imports the files needed to crate my movie objects
+# Imports the files needed to crate my movie objects
+
 import media
 import fresh_tomatoes
 
-#Following Are my favorite movies.
+# Following Are my favorite movie objects.
 
-#Code for Lord of The rings
-lotr = media.Movie("Lord of The Rings",
-					"A quest to get rid of the ring to rule them all",
-					"https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)",
-					"https://www.youtube.com/watch?v=V75dMMIW2B4")
+# Code for Lord of The rings object
 
-#Code for batman: The Dark Knight
-batman = media.Movie("Batman: The Dark Knight ",
-					 "A crazy man who wants the world to burn is after the batman. Why so serios?",
-					 "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)#/media/File:Dark_Knight.jpg",
-					 "https://www.youtube.com/watch?v=EXeTwQWrcwY")
-#Code for Star Wars Episode 4
-star_wars = media.Movie("Star Wars Episode IV A New Hope",
-						"In a galaxy far far away a plan to stop a weapon of catrastophic proportions is underway",
-						"https://en.wikipedia.org/wiki/Star_Wars_(film)#/media/File:StarWarsMoviePoster1977.jpg",
-						"https://www.youtube.com/watch?v=9gvqpFbRKtQ")
-#Code for Half Baked.
-half_baked = media.Movie("Half Baked",
-                         "A story of a group of stoners who try to get their friend out the joint",
-                         "https://en.wikipedia.org/wiki/Half_Baked#/media/File:Half-baked-dvd-cover.jpg",
-                         "https://www.youtube.com/watch?v=-O4wMW1-tkY")
-#Code for Jaws.
-jaws = media.Movie("Jaws",
-                   "A story about a giant killer shark",
-                   "https://en.wikipedia.org/wiki/Jaws_(film)#/media/File:JAWS_Movie_poster.jpg",
-                   "https://www.youtube.com/watch?v=U1fu_sA7XhE")
-#Code for Joe Dirt.
-joe_dirt = media.Movie("Joe dirt",
-                       "A Hillbilly tries to find his parents but ends up finding family in other places",
-                       "https://en.wikipedia.org/wiki/Joe_Dirt#/media/File:Joe_dirt.jpg",
-                       "https://www.youtube.com/watch?v=FpHIIE9Lois")
+lotr = media.Movie(
+    'Lord of The Rings',
+    'A quest to get rid of the ring to rule them all',
+    'https://image.ibb.co/gccbWQ/index.jpg',
+    'https://www.youtube.com/watch?v=V75dMMIW2B4')
 
-#Code for Fight Club
-fight_club = media.Movie("Fight Club",
-                         "a weak regular man ends up finding himself trough beating up his buddies in a secret club",
-                         "https://en.wikipedia.org/wiki/Fight_Club#/media/File:Fight_Club_poster.jpg",
-						 "https://www.youtube.com/watch?v=SUXWAEX2jlg")
+# Code for batman: The Dark Knight object
 
-forrest_gump = media.Movie("Forrest Gump",
-                           "An epic tale of a mans amazing journey trough life",
-                           "https://en.wikipedia.org/wiki/Forrest_Gump#/media/File:Forrest_Gump_poster.jpg",
-							"https://www.youtube.com/watch?v=YNh9Es8Ut6U")
+batman = media.Movie(
+    'Batman: The Dark Knight ',
+    'A crazy man who wants the world to burn '
+    'is after the batman.',
+    'https://image.ibb.co/b9sod5/bat.jpg',
+    'https://www.youtube.com/watch?v=EXeTwQWrcwY')
 
-#Array with movies 
-movies = [forrest_gump,star_wars,batman,lotr,joe_dirt,half_baked,fight_club,jaws]
+# Code for Star Wars Episode 4 object
 
+star_wars = media.Movie(
+    'Star Wars Episode IV A New Hope',
+    'In a galaxy far far away a plan to stop '
+    'an empire is underway',
+    'https://image.ibb.co/c5BQQk/sw.jpg',
+    'https://www.youtube.com/watch?v=9gvqpFbRKtQ')
+
+# Code for Half Baked object.
+
+half_baked = media.Movie(
+    'Half Baked',
+    'A story of a group of stoners who try'
+    ' to get their friend out the joint',
+    'https://image.ibb.co/eGaVrQ/hb.jpg',
+    'https://www.youtube.com/watch?v=-O4wMW1-tkY')
+
+# Code for Jaws object.
+
+jaws = media.Movie(
+    'Jaws',
+    'A story about a giant killer shark',
+    'https://image.ibb.co/cFDGWQ/jaws.jpg',
+    'https://www.youtube.com/watch?v=U1fu_sA7XhE')
+
+# Code for Joe Dirt. object
+
+joe_dirt = media.Movie(
+    'Joe dirt',
+    'A Hillbilly tries to find his parents',
+    'https://image.ibb.co/mjhX5k/joe.jpg',
+    'https://www.youtube.com/watch?v=FpHIIE9Lois')
+
+# Code for Fight Club object
+
+fight_club = media.Movie(
+    'Fight Club',
+    'a weak regular man ends up finding himself'
+    ' making a fight club',
+    'https://image.ibb.co/jRnbWQ/fc.jpg',
+    'https://www.youtube.com/watch?v=SUXWAEX2jlg'
+                         )
+#Code for forrest gump object
+forrest_gump = media.Movie(
+    'Forrest Gump',
+    'An epic tale of a mans amazing journey '
+    'trough life',
+    'https://image.ibb.co/h63rWQ/fg.jpg',
+    'https://www.youtube.com/watch?v=YNh9Es8Ut6U')
+
+#Code for Kill Bill object
+kill_bill = media.Movie(
+    'Kill Bill: Volume 1',
+    'A woman brtrayed seeks revenge',
+    'https://image.ibb.co/dJUZJ5/kb.jpg',
+    'https://www.youtube.com/watch?v=ot6C1ZKyiME')
+
+#Code for Pulp Fiction object
+pulp = media.Movie(
+    'Pulp Fiction',
+    'Say what one more time motherfucker. Say what',
+    'https://image.ibb.co/c26EJ5/pf.jpg',
+    'https://www.youtube.com/watch?v=s7EdQ4FqbhY')
+
+#Code for the Hobbit object
+hobbit = media.Movie(
+    'The hobbit',
+    'A hobbit embarks on a journey of a lifetime',
+    'https://image.ibb.co/m0q8d5/hobbit.jpg',
+    'www.youtube.com/watch?v=4QZ4tdIPGJQ')
+
+#Code for 300 object
+three = media.Movie(
+    '300',
+    'Can a small band of spartan warriors fight'
+    ' a persian army?',
+    'https://image.ibb.co/hHqVrQ/300.jpg',
+    'https://www.youtube.com/watch?v=UrIbxk7idYA')
+# Array with movies
+
+movies = [
+    forrest_gump,
+    star_wars,
+    batman,
+    lotr,
+    joe_dirt,
+    half_baked,
+    fight_club,
+    jaws,
+    pulp,
+    hobbit,
+    three,
+    kill_bill
+    ]
 
 fresh_tomatoes.open_movies_page(movies)
